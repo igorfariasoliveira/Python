@@ -1,2 +1,5 @@
-print(8+9)
-print('8'+'9')
+nome = input("Escreva seu nome?")
+idade = input("Qual sua idade?")
+peso = input("Qual seu peso?")
+
+print(nome,idade,peso)
