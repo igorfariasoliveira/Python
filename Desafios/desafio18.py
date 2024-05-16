@@ -1,6 +1,7 @@
-from math import sin,cos,tan
+from math import sin,cos,tan,radians
 angulo = float(input('Informe um angulo '))
-s = sin(angulo)
-c = cos(angulo)
-t = tan(angulo)
-print('O angulo {} tem seno {} cosseno {} e tangente')
+rad = radians(angulo)
+s = sin(rad)
+c = cos(rad)
+t = tan(rad)
+print('O angulo {} tem seno {:.2f} cosseno {:.2f} e tangente {:.2f}'.format(angulo,s,c,t))
