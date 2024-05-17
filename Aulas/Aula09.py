@@ -1,2 +1,2 @@
 frase = "Estou entediado"
-print(frase[3])
+print(frase[6:15])
