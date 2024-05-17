@@ -1,2 +1,6 @@
-nome = input("Qual o seu nome?")
+nome = input("Qual o seu nome? ")
 print(nome.upper())
+print(nome.lower())
+nome_sem_espaço = nome.replace(" ","")
+print(len(nome_sem_espaço))
+print(nome[:])
