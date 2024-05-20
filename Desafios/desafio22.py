@@ -6,5 +6,8 @@ nome_sem_espaço = nome.replace(" ","")
 print(len(nome_sem_espaço))
 
 nome_separado = nome.split(" ")
-primeiro_nome = nome_separado[0]
-print(len(primeiro_nome))
+#primeiro_nome = nome_separado[0]
+#print(len(primeiro_nome))
+
+#Outra forma de fazer
+print(len(nome_separado[0]))
