@@ -1,1 +1,5 @@
 frase = input('Escreva uma frase: ')
+frase_minuscula = frase.lower()
+print(frase_minuscula.count('a'))
+print(frase_minuscula.find("a"))
+print(frase_minuscula.rfind("a"))
