@@ -5,7 +5,7 @@ if abs(b - c)<a<b+c and abs(a-c)<b<a+c and abs(a-b)<c<a+b:
   print('\033[32mEssas retas podem formar um triangulo!')
   if a == b == c:
     print('É um triângulo equilátero')
-  elif a != b != c:
+  elif a != b and b != c and a != c:
     print('É um triângulo escaleno')
   else:
     print('É um triângulo isoceles')
