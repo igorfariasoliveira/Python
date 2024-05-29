@@ -16,4 +16,4 @@ elif tipo == 'fogo':
   elif pokemon == 3:
     print('Parabéns! Você escolheu o pokemon Torchic da região de Hoenn. Boa sorte na sua jornada! ')
 elif tipo == 'planta':
-  
+  pokemon = int(input('Você deve escolher entre:\n1: Charmander\n2: Cyndaquil\n3: Torchic\nDigite o número do pokemon correspondente: '))
