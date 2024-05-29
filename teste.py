@@ -10,8 +10,8 @@ if tipo == 'água' or tipo == 'agua':
 elif tipo == 'fogo':
   pokemon = int(input('Você deve escolher entre:\n1: Charmander\n2: Cyndaquil\n3: Torchic\nDigite o número do pokemon correspondente: '))
   if pokemon == 1:
-    print('Parabéns! Você escolheu o pokemon Squirtle da região de Kanto. Boa sorte na sua jornada! ')
+    print('Parabéns! Você escolheu o pokemon Charmander da região de Kanto. Boa sorte na sua jornada! ')
   elif pokemon == 2:
-    print('Parabéns! Você escolheu o pokemon Totodile da região de Johto. Boa sorte na sua jornada! ')
+    print('Parabéns! Você escolheu o pokemon Cyndaquil da região de Johto. Boa sorte na sua jornada! ')
   elif pokemon == 3:
-    print('Parabéns! Você escolheu o pokemon Mudkip da região de Hoenn. Boa sorte na sua jornada! ')
+    print('Parabéns! Você escolheu o pokemon Torchic da região de Hoenn. Boa sorte na sua jornada! ')
