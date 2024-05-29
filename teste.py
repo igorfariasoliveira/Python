@@ -15,3 +15,5 @@ elif tipo == 'fogo':
     print('Parabéns! Você escolheu o pokemon Cyndaquil da região de Johto. Boa sorte na sua jornada! ')
   elif pokemon == 3:
     print('Parabéns! Você escolheu o pokemon Torchic da região de Hoenn. Boa sorte na sua jornada! ')
+elif tipo == 'planta':
+  
