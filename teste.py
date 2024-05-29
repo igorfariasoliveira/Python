@@ -7,4 +7,5 @@ if tipo == 'água' or tipo == 'agua':
     print('Parabéns! Você escolheu o pokemon Totodile da região de Johto. Boa sorte na sua jornada! ')
   elif pokemon == 3:
     print('Parabéns! Você escolheu o pokemon Mudkip da região de Hoenn. Boa sorte na sua jornada! ')
-elif
+elif tipo == 'fogo':
+  pokemon = int(input('Você deve escolher entre:\n1: Charmander\n2: Cyndaquil\n3: Torchic\nDigite o número do pokemon correspondente: '))
