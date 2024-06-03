@@ -8,6 +8,9 @@ if computador == jogador:
 elif (jogador == 'pedra' and computador == 'papel') or (jogador == 'tesoura' and computador == 'pedra') or (jogador == 'papel' and computador == 'tesoura'):
   print('Eu escolhi {}. Eu ganhei!'.format(computador))
 elif (jogador == 'pedra' and computador == 'tesoura') or (jogador == 'tesoura' and computador == 'papel') or (jogador == 'papel' and computador == 'pedra'):
+  print('-=' * 21)
   print('Eu escolhi {}. Parabéns, você ganhou!'.format(computador))
+  print('-=' * 21)
 else:
   print('Você não escolheu pedra, papel ou tesoura. Tente novamente!')
+print('')
