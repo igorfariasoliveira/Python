@@ -1,5 +1,5 @@
-i = int(input('Em qual número você quer começar a contagem? '))
-f = int(input('Em qual número quer terminar a contagem? '))
-p = int(input('Pulando quantos números? '))
-for c in range(i,f,p):
-  print(c)
+res = 0
+for c in range(0,3):
+  n = int(input('Digite um valor para soma'))
+  res += n
+  print(res)
