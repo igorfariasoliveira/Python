@@ -6,4 +6,15 @@ if operador == 1:
   for c in range(0,10):
     res= c+n
     print('{} + {} = {}'.format(n,c,res))
-elif ope
+elif operador == 2:
+  for c in range(0,10):
+    res= n-c
+    print('{} - {} = {}'.format(n,c,res))
+elif operador == 3:
+  for c in range(0,10):
+    res= c*n
+    print('{} x {} = {}'.format(n,c,res))
+elif operador == 4:
+  for c in range(0,10):
+    res= c+n
+    print('{} + {} = {}'.format(n,c,res))
