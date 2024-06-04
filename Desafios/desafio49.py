@@ -15,6 +15,9 @@ elif operador == 3:
     res= c*n
     print('{} x {} = {}'.format(n,c,res))
 elif operador == 4:
-  for c in range(0,10):
-    res= c+n
-    print('{} + {} = {}'.format(n,c,res))
+  for c in range(1,10):
+    res= n/c
+    print('{} / {} = {:.1f}'.format(n,c,res))
+else:
+  print('Escolha uma opção valida de operador')
+print('-=' * 5)
