@@ -6,4 +6,4 @@ for c in range(0,5):
     maior = peso
   if menor is None or peso < menor:
     menor = peso
-print('O maior peso é {}kg e o menor é {}kg'.format(maior,menor))
+print('O maior peso é {:.2f}kg e o menor é {:.2f}kg'.format(maior,menor))
