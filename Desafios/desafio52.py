@@ -1,4 +1,4 @@
-n = int(input('Digite um número primo: '))
+n = int(input('Digite um número: '))
 if n < 2:
     print('O número {} não é primo!'.format(n))
 else:
