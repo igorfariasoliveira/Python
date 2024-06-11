@@ -1,7 +1,10 @@
+from datetime import datetime
 maior = 0
 menor = 0
-for c in range(0,7):
-  idade= int(input('ano de nascimento da {}° pessoa: '.format(c)))
+ano_atual = datetime.now().year
+for c in range(1,8):
+  nasc = int(input('ano de nascimento da {}° pessoa: '.format(c)))
+  idade = ano_atual - nasc
   if idade >= 18:
     maior+=1
   else:
