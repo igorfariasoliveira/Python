@@ -1,7 +1,7 @@
 maior = 0
 menor = 0
 for c in range(0,7):
-  idade= int(input('Qual a sua idade? '))
+  idade= int(input('ano de nascimento da {}° pessoa: '.format(c)))
   if idade >= 18:
     maior+=1
   else:
