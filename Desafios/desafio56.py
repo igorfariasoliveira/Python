@@ -16,4 +16,3 @@ media = idade_grupo/4
 print('A media de idade desse grupo de pessoas é {} anos!'.format(media))
 print('O homem mais velho é o {} e tem {} anos!'.format(nome_velho,mais_velho))
 print('A quantidade de mulheres com menos de 20 anos é {}!'.format(contador_fem))
-
