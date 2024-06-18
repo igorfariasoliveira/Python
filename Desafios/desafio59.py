@@ -18,6 +18,7 @@ while escolha != 5:
     else:
       print('Ambos os numeros fornecidos são iguais!')
   elif escolha == 4:
-    print('Teste')
-  else: 
+    n1 = int(input('Digite um número: '))
+    n2 = int(input('Digite outro número: '))
+  elif escolha > 5 or escolha < 1: 
     print('Opção invalida. Por favor escolha um número dentre as opções fornecidas')
