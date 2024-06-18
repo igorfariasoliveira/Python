@@ -12,9 +12,12 @@ while escolha != 5:
     print('\033[92mA multiplicação dos números {} e {} é {}\033[0m'.format(n1,n2,mult))
   elif escolha == 3:
     if n1>n2:
-      print('O número maios é {}'.format(n1))
+      print('O número maior é {}'.format(n1))
+    elif n2>n1:
+      print('O número maior é {}'.format(n2))
     else:
-      print('O número maios é {}'.format(n2))
+      print('Ambos os numeros fornecidos são iguais!')
   elif escolha == 4:
     print('Teste')
-  else:
+  else: 
+    print('Opção invalida. Por favor escolha um número dentre as opções fornecidas')
