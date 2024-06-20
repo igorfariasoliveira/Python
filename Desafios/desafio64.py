@@ -11,3 +11,4 @@ while conf != 'não':
   soma += num
   media = soma/contador
   conf = str(input('Deseja continuar? ')).lower()
+print()
