@@ -11,4 +11,8 @@ while conf != 'não':
   soma += num
   media = soma/contador
   conf = str(input('Deseja continuar? ')).lower()
-print()
+  if maior is None or num > maior:
+    maior = num
+  if menor is None or num < menor:
+    menor = num 
+print('A média dos valores digitados é {:.2f}'.format(media) )
