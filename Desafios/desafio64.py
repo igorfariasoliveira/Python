@@ -1,22 +1,9 @@
 num = 0
-soma = 0
-conf = ''
-media = 0
-contador = 0
-maior = None
-menor = None
-while conf != 'não':
-  num = int(input('Digite um valor: '))
-  contador+=1
-  soma += num
-  media = soma/contador
-  conf = str(input('Deseja continuar? ')).lower()
-  if maior is None or num > maior:
-    maior = num
-  if menor is None or num < menor:
-    menor = num 
-print('-='*25)
-print('Você digitou {} números'.format(contador))
-print('A média dos valores digitados é {:.2f}'.format(media))
-print('O maior número é {} e o menor é {}'.format(maior,menor))
-print('-='*25)
+cont = 0
+res = 0
+while num != 999:
+  num = int(input('Digite um número para contagem! (Caso queira parar digite 999) '))
+  if num != 999:
+    cont+=1
+    res+=num
+print('Foram contados {} números e a soma desses números foi {}'.format(cont,res))

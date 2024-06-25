@@ -1,12 +1,15 @@
-num= int(input("Digite quantos elementos da sequencia de Fibonacci você quer ver: "))
-c = 2
-na = 1
-nb = 0
-nc = 0
-print('{} -> '.format(nb), end='')
-while c <= num:
-  print('{} -> '.format(na), end='')
-  nb = na 
-  na += nc
-  nc = nb
-  c+=1
+primeiro = int(input('Informe o primeiro termo da PA: '))
+razao = int(input('Informe a razão da PA: '))
+c = 0
+res = 0
+esc = None
+termos = 10
+total = 0
+while termos != 0:
+  total = total + termos
+  while c < total and esc!= 0:
+    res = primeiro + c*razao
+    c+=1
+    print('{} -> '.format(res), end='')
+  termos = int(input('Deseja adcionar mostrar mais termos? '))
+   

@@ -1,9 +1,12 @@
-num = 0
-cont = 0
-res = 0
-while num != 999:
-  num = int(input('Digite um número para contagem! (Caso queira parar digite 999) '))
-  if num != 999:
-    cont+=1
-    res+=num
-print('Foram contados {} números e a soma desses números foi {}'.format(cont,res))
+num= int(input("Digite quantos elementos da sequencia de Fibonacci você quer ver: "))
+c = 2
+na = 1
+nb = 0
+nc = 0
+print('{} -> '.format(nb), end='')
+while c <= num:
+  print('{} -> '.format(na), end='')
+  nb = na 
+  na += nc
+  nc = nb
+  c+=1
