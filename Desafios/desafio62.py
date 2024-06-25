@@ -1,8 +1,9 @@
 num= int(input("Digite quantos elementos da sequencia de Fibonacci você quer ver: "))
-c = 1
+c = 2
 na = 1
 nb = 0
 nc = 0
+print('{} -> '.format(nb), end='')
 while c <= num:
   print('{} -> '.format(na), end='')
   nb = na 
