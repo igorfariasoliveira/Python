@@ -6,6 +6,5 @@ esc = None
 while c < 10 and esc!= 0:
   res = primeiro + c*razao
   c+=1
-  print(res)
+  print('{} -> '.format(res), end='')
    
-      
