@@ -4,7 +4,7 @@ na = 1
 nb = 0
 nc = 0
 while c <= num:
-  print(na)
+  print('{} -> '.format(na), end='')
   nb = na 
   na += nc
   nc = nb
