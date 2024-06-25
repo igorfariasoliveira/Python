@@ -22,3 +22,4 @@ while escolha != 5:
     n2 = int(input('Digite outro número: '))
   elif escolha > 5 or escolha < 1: 
     print('Opção invalida. Por favor escolha um número dentre as opções fornecidas')
+  
