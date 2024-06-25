@@ -15,5 +15,8 @@ while conf != 'não':
     maior = num
   if menor is None or num < menor:
     menor = num 
+print('-='*25)
+print('Você digitou {} números'.format(contador))
 print('A média dos valores digitados é {:.2f}'.format(media))
 print('O maior número é {} e o menor é {}'.format(maior,menor))
+print('-='*25)
