@@ -11,3 +11,7 @@ while True:
     if esco == 'p':
       print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número par')
       print('Parabéns, você venceu!')
+    elif esco == 'i':
+      print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número impar')
+      print('Que pena. Você perdeu!')
+      
