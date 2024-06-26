@@ -14,12 +14,12 @@ while True:
       print('Parabéns, você venceu!')
       c+=1
     elif esco == 'i':
-      print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número impar')
+      print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número par')
       print('Que pena. Você perdeu!')
       break
   elif soma % 2 != 0:
     if esco == 'p':
-      print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número par')
+      print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número impar')
       print('Que pena. Você perdeu!')
       break
     elif esco == 'i':
