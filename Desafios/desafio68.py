@@ -1,5 +1,6 @@
 from random import randint
-
+c = soma = jog = comp = 0
+esco = None
 while True:
   print('-'*20)
   jog = int(input('Escolha um número: '))
@@ -11,6 +12,7 @@ while True:
     if esco == 'p':
       print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número par')
       print('Parabéns, você venceu!')
+      c+=1
     elif esco == 'i':
       print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número impar')
       print('Que pena. Você perdeu!')
@@ -23,4 +25,5 @@ while True:
     elif esco == 'i':
       print(f'Você escolheu {jog} e eu {comp}, somando dá {soma} que é um número impar')
       print('Parabéns, você venceu!')
-print()
+      c+=1
+print(f"Você venceu {c} vezes seguidas")
