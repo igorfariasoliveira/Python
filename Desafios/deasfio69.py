@@ -1,4 +1,4 @@
-idade = 0
+idade = maiorIdade = homens = mulherMenor = 0
 sexo = None
 while True:
   print('-'*20)
@@ -6,4 +6,5 @@ while True:
   print('-'*20)
   idade = int('Idade: ')
   sexo = str(input('Sexo(M/F): ')).lower
+  if
   
