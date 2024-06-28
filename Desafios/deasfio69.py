@@ -6,5 +6,10 @@ while True:
   print('-'*20)
   idade = int('Idade: ')
   sexo = str(input('Sexo(M/F): ')).lower
-  if sexo == 'm'
+  if idade > 18:
+    maiorIdade+=1
+  if sexo == 'm':
+    homens+=1
+  if sexo == 'f' and idade <20:
+    mulherMenor+=1
   
