@@ -6,5 +6,5 @@ while True:
   print('-'*20)
   idade = int('Idade: ')
   sexo = str(input('Sexo(M/F): ')).lower
-  if
+  if sexo == 'm'
   
