@@ -15,5 +15,7 @@ while True:
     mulherMenor+=1
   while confirm != 's' and confirm != 'n':
     confirm = str(input('Deseja cadastrar mais uma pessoas?(S/N) ')).lower()
+  if confirm == 'n':
+      break
   confirm = ''
   
