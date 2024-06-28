@@ -1,5 +1,6 @@
 idade = maiorIdade = homens = mulherMenor = 0
 sexo = None
+confirm = ''
 while True:
   print('-'*20)
   print('CADASTRO DE PESSOA')
@@ -12,5 +13,7 @@ while True:
     homens+=1
   if sexo == 'f' and idade <20:
     mulherMenor+=1
-  print(maiorIdade,homens,mulherMenor)
+  while confirm != 's' and confirm != 'n':
+    confirm = str(input('Deseja cadastrar mais uma pessoas?(S/N) ')).lower()
+  confirm = ''
   
