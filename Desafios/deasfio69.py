@@ -21,3 +21,4 @@ while True:
 print('='*6,' FIM DO CADASTRO','='*6)
 print(f'Total de pessoas com maias de 18 anos: {maiorIdade}')
 print(f'Total de homens cadastrados: {homens}')
+print(f'Total de mulhres com menos de 20 anos cadastradas: {mulherMenor}')
