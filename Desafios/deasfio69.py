@@ -18,4 +18,6 @@ while True:
   if confirm == 'n':
       break
   confirm = ''
-  
+print('='*6,' FIM DO CADASTRO','='*6)
+print(f'Total de pessoas com maias de 18 anos: {maiorIdade}')
+print
